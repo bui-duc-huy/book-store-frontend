@@ -13,7 +13,7 @@ const HomeBookStoreTwo = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Book store Home</title>
+        <title>Bookier | Home</title>
         <meta
           name="description"
           content="Book store home of flone react minimalist eCommerce template."
@@ -33,7 +33,7 @@ const HomeBookStoreTwo = () => {
           spaceTopClass="pt-70"
           spaceBottomClass="pb-95"
           dateTime="November 13, 2020 12:12:00"
-          countDownImage="/assets/img/banner/deal-8.png"
+          countDownImage="/assets/img/banner/1.jpg"
         />
         {/* feature icon */}
         <FeatureIconFour
