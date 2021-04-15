@@ -26,10 +26,7 @@ const HeaderTop = ({
       />
       <div className="header-offer">
         <p>
-          Free delivery on order over{" "}
-          <span>
-            {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
-          </span>
+          Every Books - Every Bookiers{" "}
         </p>
       </div>
     </div>
