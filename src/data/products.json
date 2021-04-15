@@ -9,12 +9,12 @@
     "new": false,
     "rating": 4,
     "saleCount": 54,
-    "category": ["fashion", "men"],
-    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "category": ["books", "men"],
+    "tag": ["books", "men", "jacket", "full sleeve"],
     "variation": [
       {
         "color": "white",
-        "image": "/assets/img/product/fashion/1.jpg",
+        "image": "/assets/img/product/books/1.jpg",
         "size": [
           {
             "name": "x",
@@ -32,7 +32,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/8.jpg",
+        "image": "/assets/img/product/books/8.jpg",
         "size": [
           {
             "name": "x",
@@ -54,7 +54,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/3.jpg",
+        "image": "/assets/img/product/books/3.jpg",
         "size": [
           {
             "name": "x",
@@ -76,11 +76,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/1.jpg",
+      "/assets/img/product/books/3.jpg",
+      "/assets/img/product/books/6.jpg",
+      "/assets/img/product/books/8.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -94,12 +94,12 @@
     "new": false,
     "rating": 3,
     "saleCount": 12,
-    "category": ["fashion", "women"],
-    "tag": ["fashion", "women", "coat", "full sleeve"],
+    "category": ["books", "women"],
+    "tag": ["books", "women", "coat", "full sleeve"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/2.jpg",
+        "image": "/assets/img/product/books/2.jpg",
         "size": [
           {
             "name": "x",
@@ -117,7 +117,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/4.jpg",
+        "image": "/assets/img/product/books/4.jpg",
         "size": [
           {
             "name": "x",
@@ -139,7 +139,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/5.jpg",
+        "image": "/assets/img/product/books/5.jpg",
         "size": [
           {
             "name": "x",
@@ -161,11 +161,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/2.jpg",
+      "/assets/img/product/books/4.jpg",
+      "/assets/img/product/books/5.jpg",
+      "/assets/img/product/books/7.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -181,12 +181,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 36,
-    "category": ["fashion", "men"],
-    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "category": ["books", "men"],
+    "tag": ["books", "men", "jacket", "full sleeve"],
     "variation": [
       {
         "color": "white",
-        "image": "/assets/img/product/fashion/1.jpg",
+        "image": "/assets/img/product/books/1.jpg",
         "size": [
           {
             "name": "x",
@@ -204,7 +204,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/8.jpg",
+        "image": "/assets/img/product/books/8.jpg",
         "size": [
           {
             "name": "x",
@@ -226,7 +226,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/3.jpg",
+        "image": "/assets/img/product/books/3.jpg",
         "size": [
           {
             "name": "x",
@@ -248,11 +248,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/3.jpg",
+      "/assets/img/product/books/1.jpg",
+      "/assets/img/product/books/6.jpg",
+      "/assets/img/product/books/8.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -260,18 +260,18 @@
   {
     "id": "4",
     "sku": "asdf126",
-    "name": "Lorem ipsum fashion coat",
+    "name": "Lorem ipsum books coat",
     "price": 15.5,
     "discount": 0,
     "new": true,
     "rating": 4,
     "saleCount": 20,
-    "category": ["fashion", "women"],
-    "tag": ["fashion", "women", "coat", "full sleeve"],
+    "category": ["books", "women"],
+    "tag": ["books", "women", "coat", "full sleeve"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/2.jpg",
+        "image": "/assets/img/product/books/2.jpg",
         "size": [
           {
             "name": "x",
@@ -289,7 +289,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/4.jpg",
+        "image": "/assets/img/product/books/4.jpg",
         "size": [
           {
             "name": "x",
@@ -311,7 +311,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/5.jpg",
+        "image": "/assets/img/product/books/5.jpg",
         "size": [
           {
             "name": "x",
@@ -333,11 +333,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/4.jpg",
+      "/assets/img/product/books/2.jpg",
+      "/assets/img/product/books/5.jpg",
+      "/assets/img/product/books/7.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -351,12 +351,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 25,
-    "category": ["fashion", "women"],
-    "tag": ["fashion", "women", "coat", "full sleeve"],
+    "category": ["books", "children"],
+    "tag": ["books", "women", "coat", "full sleeve"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/2.jpg",
+        "image": "/assets/img/product/books/2.jpg",
         "size": [
           {
             "name": "x",
@@ -374,7 +374,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/4.jpg",
+        "image": "/assets/img/product/books/4.jpg",
         "size": [
           {
             "name": "x",
@@ -396,7 +396,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/5.jpg",
+        "image": "/assets/img/product/books/5.jpg",
         "size": [
           {
             "name": "x",
@@ -418,11 +418,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/5.jpg",
+      "/assets/img/product/books/2.jpg",
+      "/assets/img/product/books/4.jpg",
+      "/assets/img/product/books/7.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -437,12 +437,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 65,
-    "category": ["fashion", "men"],
-    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "category": ["books", "men"],
+    "tag": ["books", "men", "jacket", "full sleeve"],
     "variation": [
       {
         "color": "white",
-        "image": "/assets/img/product/fashion/1.jpg",
+        "image": "/assets/img/product/books/1.jpg",
         "size": [
           {
             "name": "x",
@@ -460,7 +460,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/8.jpg",
+        "image": "/assets/img/product/books/8.jpg",
         "size": [
           {
             "name": "x",
@@ -482,7 +482,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/3.jpg",
+        "image": "/assets/img/product/books/3.jpg",
         "size": [
           {
             "name": "x",
@@ -504,11 +504,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/6.jpg",
+      "/assets/img/product/books/3.jpg",
+      "/assets/img/product/books/1.jpg",
+      "/assets/img/product/books/8.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -516,18 +516,18 @@
   {
     "id": "7",
     "sku": "asdf129",
-    "name": "Lorem ipsum fashion female coat",
+    "name": "Lorem ipsum books female coat",
     "price": 55.5,
     "discount": 40,
     "new": true,
     "rating": 5,
     "saleCount": 55,
-    "category": ["fashion", "women"],
-    "tag": ["fashion", "women", "coat", "full sleeve"],
+    "category": ["books", "women"],
+    "tag": ["books", "women", "coat", "full sleeve"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/2.jpg",
+        "image": "/assets/img/product/books/2.jpg",
         "size": [
           {
             "name": "x",
@@ -545,7 +545,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/4.jpg",
+        "image": "/assets/img/product/books/4.jpg",
         "size": [
           {
             "name": "x",
@@ -567,7 +567,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/5.jpg",
+        "image": "/assets/img/product/books/5.jpg",
         "size": [
           {
             "name": "x",
@@ -589,11 +589,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/7.jpg",
+      "/assets/img/product/books/5.jpg",
+      "/assets/img/product/books/2.jpg",
+      "/assets/img/product/books/4.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -601,22 +601,22 @@
   {
     "id": "8",
     "sku": "asdf130",
-    "name": "Lorem ipsum fashion jacket",
+    "name": "Lorem ipsum books jacket",
     "price": 29.85,
     "discount": 10,
     "offerEnd": "October 18, 2020 12:11:00",
     "new": false,
     "rating": 5,
     "saleCount": 83,
-    "category": ["fashion", "men"],
-    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "category": ["books", "men"],
+    "tag": ["books", "men", "jacket", "full sleeve"],
     "stock": 0,
     "image": [
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/books/8.jpg",
+      "/assets/img/product/books/6.jpg",
+      "/assets/img/product/books/3.jpg",
+      "/assets/img/product/books/1.jpg",
+      "/assets/img/product/books/9.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -624,22 +624,22 @@
   {
     "id": "9",
     "sku": "asdf131",
-    "name": "Lorem ipsum fashion female top",
+    "name": "Lorem ipsum books female top",
     "price": 35.6,
     "discount": 0,
     "new": false,
     "rating": 4,
     "saleCount": 95,
-    "category": ["fashion", "women"],
-    "tag": ["fashion", "women", "top", "sleeveless"],
+    "category": ["books", "women"],
+    "tag": ["books", "women", "top", "sleeveless"],
     "stock": 5,
     "affiliateLink": "//www.amazon.com",
     "image": [
-      "/assets/img/product/fashion/9.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg"
+      "/assets/img/product/books/9.jpg",
+      "/assets/img/product/books/7.jpg",
+      "/assets/img/product/books/5.jpg",
+      "/assets/img/product/books/2.jpg",
+      "/assets/img/product/books/4.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -2370,12 +2370,12 @@
     "new": false,
     "rating": 4,
     "saleCount": 54,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "white",
-        "image": "/assets/img/product/fashion/23.jpg",
+        "image": "/assets/img/product/books/23.jpg",
         "size": [
           {
             "name": "x",
@@ -2393,7 +2393,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/24.jpg",
+        "image": "/assets/img/product/books/24.jpg",
         "size": [
           {
             "name": "x",
@@ -2415,7 +2415,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/25.jpg",
+        "image": "/assets/img/product/books/25.jpg",
         "size": [
           {
             "name": "x",
@@ -2437,11 +2437,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/23.jpg",
-      "/assets/img/product/fashion/24.jpg",
-      "/assets/img/product/fashion/25.jpg",
-      "/assets/img/product/fashion/26.jpg",
-      "/assets/img/product/fashion/27.jpg"
+      "/assets/img/product/books/23.jpg",
+      "/assets/img/product/books/24.jpg",
+      "/assets/img/product/books/25.jpg",
+      "/assets/img/product/books/26.jpg",
+      "/assets/img/product/books/27.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2455,12 +2455,12 @@
     "new": false,
     "rating": 3,
     "saleCount": 12,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/24.jpg",
+        "image": "/assets/img/product/books/24.jpg",
         "size": [
           {
             "name": "x",
@@ -2478,7 +2478,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/25.jpg",
+        "image": "/assets/img/product/books/25.jpg",
         "size": [
           {
             "name": "x",
@@ -2500,7 +2500,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/26.jpg",
+        "image": "/assets/img/product/books/26.jpg",
         "size": [
           {
             "name": "x",
@@ -2522,11 +2522,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/24.jpg",
-      "/assets/img/product/fashion/25.jpg",
-      "/assets/img/product/fashion/26.jpg",
-      "/assets/img/product/fashion/27.jpg",
-      "/assets/img/product/fashion/28.jpg"
+      "/assets/img/product/books/24.jpg",
+      "/assets/img/product/books/25.jpg",
+      "/assets/img/product/books/26.jpg",
+      "/assets/img/product/books/27.jpg",
+      "/assets/img/product/books/28.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2542,12 +2542,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 36,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "white",
-        "image": "/assets/img/product/fashion/25.jpg",
+        "image": "/assets/img/product/books/25.jpg",
         "size": [
           {
             "name": "x",
@@ -2565,7 +2565,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/26.jpg",
+        "image": "/assets/img/product/books/26.jpg",
         "size": [
           {
             "name": "x",
@@ -2587,7 +2587,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/27.jpg",
+        "image": "/assets/img/product/books/27.jpg",
         "size": [
           {
             "name": "x",
@@ -2609,11 +2609,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/25.jpg",
-      "/assets/img/product/fashion/26.jpg",
-      "/assets/img/product/fashion/27.jpg",
-      "/assets/img/product/fashion/28.jpg",
-      "/assets/img/product/fashion/29.jpg"
+      "/assets/img/product/books/25.jpg",
+      "/assets/img/product/books/26.jpg",
+      "/assets/img/product/books/27.jpg",
+      "/assets/img/product/books/28.jpg",
+      "/assets/img/product/books/29.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2627,12 +2627,12 @@
     "new": true,
     "rating": 4,
     "saleCount": 20,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/26.jpg",
+        "image": "/assets/img/product/books/26.jpg",
         "size": [
           {
             "name": "x",
@@ -2650,7 +2650,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/27.jpg",
+        "image": "/assets/img/product/books/27.jpg",
         "size": [
           {
             "name": "x",
@@ -2672,7 +2672,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/28.jpg",
+        "image": "/assets/img/product/books/28.jpg",
         "size": [
           {
             "name": "x",
@@ -2694,11 +2694,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/26.jpg",
-      "/assets/img/product/fashion/27.jpg",
-      "/assets/img/product/fashion/28.jpg",
-      "/assets/img/product/fashion/29.jpg",
-      "/assets/img/product/fashion/30.jpg"
+      "/assets/img/product/books/26.jpg",
+      "/assets/img/product/books/27.jpg",
+      "/assets/img/product/books/28.jpg",
+      "/assets/img/product/books/29.jpg",
+      "/assets/img/product/books/30.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2712,12 +2712,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 25,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/27.jpg",
+        "image": "/assets/img/product/books/27.jpg",
         "size": [
           {
             "name": "x",
@@ -2735,7 +2735,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/28.jpg",
+        "image": "/assets/img/product/books/28.jpg",
         "size": [
           {
             "name": "x",
@@ -2757,7 +2757,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/29.jpg",
+        "image": "/assets/img/product/books/29.jpg",
         "size": [
           {
             "name": "x",
@@ -2779,11 +2779,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/27.jpg",
-      "/assets/img/product/fashion/28.jpg",
-      "/assets/img/product/fashion/29.jpg",
-      "/assets/img/product/fashion/30.jpg",
-      "/assets/img/product/fashion/23.jpg"
+      "/assets/img/product/books/27.jpg",
+      "/assets/img/product/books/28.jpg",
+      "/assets/img/product/books/29.jpg",
+      "/assets/img/product/books/30.jpg",
+      "/assets/img/product/books/23.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2798,12 +2798,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 65,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "white",
-        "image": "/assets/img/product/fashion/28.jpg",
+        "image": "/assets/img/product/books/28.jpg",
         "size": [
           {
             "name": "x",
@@ -2821,7 +2821,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/29.jpg",
+        "image": "/assets/img/product/books/29.jpg",
         "size": [
           {
             "name": "x",
@@ -2843,7 +2843,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/30.jpg",
+        "image": "/assets/img/product/books/30.jpg",
         "size": [
           {
             "name": "x",
@@ -2865,11 +2865,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/28.jpg",
-      "/assets/img/product/fashion/29.jpg",
-      "/assets/img/product/fashion/30.jpg",
-      "/assets/img/product/fashion/23.jpg",
-      "/assets/img/product/fashion/24.jpg"
+      "/assets/img/product/books/28.jpg",
+      "/assets/img/product/books/29.jpg",
+      "/assets/img/product/books/30.jpg",
+      "/assets/img/product/books/23.jpg",
+      "/assets/img/product/books/24.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2883,12 +2883,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 55,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "variation": [
       {
         "color": "blue",
-        "image": "/assets/img/product/fashion/29.jpg",
+        "image": "/assets/img/product/books/29.jpg",
         "size": [
           {
             "name": "x",
@@ -2906,7 +2906,7 @@
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/30.jpg",
+        "image": "/assets/img/product/books/30.jpg",
         "size": [
           {
             "name": "x",
@@ -2928,7 +2928,7 @@
       },
       {
         "color": "black",
-        "image": "/assets/img/product/fashion/23.jpg",
+        "image": "/assets/img/product/books/23.jpg",
         "size": [
           {
             "name": "x",
@@ -2950,11 +2950,11 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/29.jpg",
-      "/assets/img/product/fashion/30.jpg",
-      "/assets/img/product/fashion/23.jpg",
-      "/assets/img/product/fashion/24.jpg",
-      "/assets/img/product/fashion/25.jpg"
+      "/assets/img/product/books/29.jpg",
+      "/assets/img/product/books/30.jpg",
+      "/assets/img/product/books/23.jpg",
+      "/assets/img/product/books/24.jpg",
+      "/assets/img/product/books/25.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -2969,15 +2969,15 @@
     "new": false,
     "rating": 5,
     "saleCount": 83,
-    "category": ["fashion", "kids"],
-    "tag": ["fashion", "kids"],
+    "category": ["books", "kids"],
+    "tag": ["books", "kids"],
     "stock": 0,
     "image": [
-      "/assets/img/product/fashion/30.jpg",
-      "/assets/img/product/fashion/23.jpg",
-      "/assets/img/product/fashion/24.jpg",
-      "/assets/img/product/fashion/25.jpg",
-      "/assets/img/product/fashion/26.jpg"
+      "/assets/img/product/books/30.jpg",
+      "/assets/img/product/books/23.jpg",
+      "/assets/img/product/books/24.jpg",
+      "/assets/img/product/books/25.jpg",
+      "/assets/img/product/books/26.jpg"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
