@@ -9,6 +9,7 @@ const IconGroup = ({
   currency,
   cartData,
   wishlistData,
+  checkoutData,
   compareData,
   deleteFromCart,
   iconWhiteClass
@@ -79,6 +80,14 @@ const IconGroup = ({
           <i className="pe-7s-like" />
           <span className="count-style">
             {wishlistData && wishlistData.length ? wishlistData.length : 0}
+          </span>
+        </Link>
+      </div>
+      <div className="same-style header-wishlist">
+        <Link to={process.env.PUBLIC_URL + "/checkout"}>
+          <i className="pe-7s-check" />
+          <span className="count-style">
+            {checkoutData && checkoutData.length ? checkoutData.length : 0}
           </span>
         </Link>
       </div>
