@@ -1637,7 +1637,7 @@
   {
     "id": "55",
     "sku": "asdf177",
-    "name": "Lorem ipsum book four",
+    "name": "Health",
     "price": 7.1,
     "discount": 40,
     "new": true,
@@ -1681,7 +1681,7 @@
   {
     "id": "57",
     "sku": "asdf179",
-    "name": "Lorem ipsum book six",
+    "name": "Party Lorem ipsum",
     "price": 5.5,
     "discount": 10,
     "new": true,
