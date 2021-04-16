@@ -7,9 +7,8 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
 import BannerOne from "../../wrappers/banner/BannerOne";
 import TextGridOne from "../../wrappers/text-grid/TextGridOne";
-import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
-import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
+
 
 const About = ({ location }) => {
   const { pathname } = location;
@@ -17,7 +16,7 @@ const About = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | About us</title>
+        <title>Bookier | About us</title>
         <meta
           name="description"
           content="About page of flone react minimalist eCommerce template."
@@ -40,18 +39,11 @@ const About = ({ location }) => {
         {/* text grid */}
         <TextGridOne spaceBottomClass="pb-70" />
 
-        {/* fun fact */}
-        <FunFactOne
-          spaceTopClass="pt-100"
-          spaceBottomClass="pb-70"
-          bgClass="bg-gray-3"
-        />
 
         {/* team member */}
         <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />
 
-        {/* brand logo slider */}
-        <BrandLogoSliderOne spaceBottomClass="pb-70" />
+
       </LayoutOne>
     </Fragment>
   );

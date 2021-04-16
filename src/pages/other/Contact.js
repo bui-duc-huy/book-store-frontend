@@ -12,7 +12,7 @@ const Contact = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Contact</title>
+        <title>Bookier | Contact</title>
         <meta
           name="description"
           content="Contact of flone react minimalist eCommerce template."
@@ -28,7 +28,7 @@ const Contact = ({ location }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-              <LocationMap latitude="47.444" longitude="-122.176" />
+              <LocationMap latitude="10.87833" longitude="106.80624" />
             </div>
             <div className="custom-row-2">
               <div className="col-lg-4 col-md-5">
@@ -38,8 +38,8 @@ const Contact = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+0123456789</p>
+                      <p>+0123456789</p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -48,7 +48,7 @@ const Contact = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:urname@email.com">urname@email.com</a>
+                        <a href="mailto:urname@email.com">username@email.com</a>
                       </p>
                       <p>
                         <a href="//urwebsitenaem.com">urwebsitenaem.com</a>
@@ -75,16 +75,6 @@ const Contact = ({ location }) => {
                       <li>
                         <a href="//pinterest.com">
                           <i className="fa fa-pinterest-p" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//thumblr.com">
-                          <i className="fa fa-tumblr" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//vimeo.com">
-                          <i className="fa fa-vimeo" />
                         </a>
                       </li>
                       <li>
