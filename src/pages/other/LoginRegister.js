@@ -1,9 +1,13 @@
 import PropTypes from "prop-types";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
+
+
+
+
 
 const LoginRegister = ({ location }) => {
 
@@ -25,7 +29,7 @@ const LoginRegister = ({ location }) => {
                     <Nav variant="pills" className="login-register-tab-list">
                       <Nav.Item>
                         <Nav.Link eventKey="login">
-                          <h4>Login</h4>
+                            <h4>Login</h4>;
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
@@ -108,4 +112,6 @@ LoginRegister.propTypes = {
   location: PropTypes.object
 };
 
-export default LoginRegister;
+export default LoginRegister
+
+
