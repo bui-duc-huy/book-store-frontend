@@ -5,7 +5,6 @@ import HeroSliderTwentyFour from "../../wrappers/hero-slider/HeroSliderTwentyFou
 import TabProductFifteen from "../../wrappers/product/TabProductFifteen";
 import BannerTwentyFour from "../../wrappers/banner/BannerTwentyFour";
 import FeatureIconFour from "../../wrappers/feature-icon/FeatureIconFour";
-import BlogFeaturedThree from "../../wrappers/blog-featured/BlogFeaturedThree";
 
 const HomeBookStoreTwo = () => {
   return (

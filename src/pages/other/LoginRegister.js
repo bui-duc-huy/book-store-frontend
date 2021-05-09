@@ -6,7 +6,6 @@ import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 
 const LoginRegister = ({ location }) => {
-  const { pathname } = location;
 
   return (
     <Fragment>
