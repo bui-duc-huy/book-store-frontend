@@ -48,10 +48,10 @@ const Contact = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:urname@email.com">username@email.com</a>
+                        <a href="mailto:urname@email.com">nevermind271999@gmail.com</a>
                       </p>
                       <p>
-                        <a href="//urwebsitenaem.com">urwebsitenaem.com</a>
+                        <a href="//https://github.com/misterbo271">https://github.com/misterbo271</a>
                       </p>
                     </div>
                   </div>
@@ -60,8 +60,8 @@ const Contact = ({ location }) => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>Dormitory zone A - Vietnam National University </p>
+                      <p>Thu Duc City</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">

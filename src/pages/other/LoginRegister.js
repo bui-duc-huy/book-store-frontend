@@ -2,31 +2,20 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
-import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import LayoutOne from "../../layouts/LayoutOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
 const LoginRegister = ({ location }) => {
-  const { pathname } = location;
 
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Login</title>
+        <title>Bookier | Login</title>
         <meta
           name="description"
           content="Compare page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Login Register
-      </BreadcrumbsItem>
-      <LayoutOne headerTop="visible">
-        {/* breadcrumb */}
-        <Breadcrumb />
         <div className="login-register-area pt-100 pb-100">
           <div className="container">
             <div className="row">
@@ -111,7 +100,6 @@ const LoginRegister = ({ location }) => {
             </div>
           </div>
         </div>
-      </LayoutOne>
     </Fragment>
   );
 };

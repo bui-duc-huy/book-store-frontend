@@ -13,7 +13,7 @@ const HomeBookStoreTwo = lazy(() => import("./pages/home/HomeBookStoreTwo"));
 // shop pages
 const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
 
-// product pages
+// product pages  
 const Product = lazy(() => import("./pages/shop-product/Product"));
 const ProductTabLeft = lazy(() =>
   import("./pages/shop-product/ProductTabLeft")
