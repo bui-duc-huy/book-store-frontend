@@ -11,16 +11,13 @@ const HomeBookStoreTwo = () => {
     <Fragment>
       <MetaTags>
         <title>Bookier | Home</title>
-        <meta
-          name="description"
-          content="Book store home of flone react minimalist eCommerce template."
-        />
+        <meta name="description" content="Bookier" />
       </MetaTags>
       <LayoutOne headerTop="visible">
         {/* hero slider */}
         <HeroSliderTwentyFour />
         {/* tab product */}
-        <TabProductFifteen category="book" spaceTopClass="pt-95" />
+        <TabProductFifteen category="book" spaceTopClass="pt-100" />
         {/* banner */}
         <BannerTwentyFour spaceTopClass="pt-100" />
         {/* feature icon */}

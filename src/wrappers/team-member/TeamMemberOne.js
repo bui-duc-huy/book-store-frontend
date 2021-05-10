@@ -15,7 +15,7 @@ const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
         {/* section title */}
         <SectionTitleTwo
           titleText="Team Members"
-          subTitleText="Lorem ipsum dolor sit amet conse ctetu."
+          subTitleText="Team Bookier"
           positionClass="text-center"
           spaceClass="mb-60"
         />
@@ -26,7 +26,7 @@ const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
               return (
                 <TeamMemberOneSingle
                   data={single}
-                  spaceBottomClass="mb-30"
+                  spaceBottomClass="mb-20"
                   key={key}
                 />
               );

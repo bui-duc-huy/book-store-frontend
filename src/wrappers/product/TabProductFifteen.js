@@ -9,7 +9,7 @@ const TabProductFifteen = ({
   spaceTopClass,
   spaceBottomClass,
   category,
-  productTabClass
+  productTabClass,
 }) => {
   return (
     <div
@@ -48,7 +48,7 @@ const TabProductFifteen = ({
                   category={category}
                   type="new"
                   limit={8}
-                  spaceBottomClass="mb-25"
+                  spaceBottomClass="mb-35"
                 />
               </div>
             </Tab.Pane>
@@ -58,7 +58,7 @@ const TabProductFifteen = ({
                   category={category}
                   type="bestSeller"
                   limit={8}
-                  spaceBottomClass="mb-25"
+                  spaceBottomClass="mb-35"
                 />
               </div>
             </Tab.Pane>
@@ -68,7 +68,7 @@ const TabProductFifteen = ({
                   category={category}
                   type="saleItems"
                   limit={8}
-                  spaceBottomClass="mb-25"
+                  spaceBottomClass="mb-35"
                 />
               </div>
             </Tab.Pane>
@@ -77,7 +77,7 @@ const TabProductFifteen = ({
         <div className="view-more text-center mt-20 toggle-btn6 col-12">
           <Link
             className="loadMore6"
-            to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+            to={process.env.PUBLIC_URL + "/collection"}
           >
             VIEW MORE PRODUCTS
           </Link>
@@ -91,7 +91,7 @@ TabProductFifteen.propTypes = {
   category: PropTypes.string,
   productTabClass: PropTypes.string,
   spaceBottomClass: PropTypes.string,
-  spaceTopClass: PropTypes.string
+  spaceTopClass: PropTypes.string,
 };
 
 export default TabProductFifteen;

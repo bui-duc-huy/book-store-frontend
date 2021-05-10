@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { Fragment } from "react";
+import React, { Fragment, useRef } from "react";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
 import { connect } from "react-redux";
@@ -7,15 +7,49 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import { getDiscountPrice } from "../../helpers/product";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import { useHistory } from "react-router-dom";
+import { useToasts } from "react-toast-notifications";
+import { useAuth } from "../../contexts";
+import { db } from "../../firebase";
+import { deleteAllFromCart } from "../../redux/actions/cartActions";
 
 const Checkout = ({ location, cartItems, currency }) => {
+  const nameRef = useRef();
+  const addressRef = useRef();
+  const phoneRef = useRef();
+  const noteRef = useRef();
+  const { addToast } = useToasts();
   const { pathname } = location;
   let cartTotalPrice = 0;
+
+  const history = useHistory();
+
+  const { isAuth, currentUser } = useAuth();
+
+  const handleCheckout = async () => {
+    if (!isAuth) {
+      history.push("/login-register");
+    } else {
+      const orders = db.collection("orders_table");
+      orders.add({
+        emailBuyer: currentUser.email,
+        products: cartItems,
+        nameBuyer: nameRef.current.value,
+        addressBuyer: addressRef.current.value,
+        phoneBuyer: phoneRef.current.value,
+        noteBill: noteRef.current.value,
+        totalPrice: cartTotalPrice,
+        executed: false,
+      });
+      deleteAllFromCart(addToast);
+      history.push("/checkout-done");
+    }
+  };
 
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Checkout</title>
+        <title>Bookier | Checkout</title>
         <meta
           name="description"
           content="Checkout page of flone react minimalist eCommerce template."
@@ -36,35 +70,10 @@ const Checkout = ({ location, cartItems, currency }) => {
                   <div className="billing-info-wrap">
                     <h3>Billing Details</h3>
                     <div className="row">
-                      <div className="col-lg-6 col-md-6">
-                        <div className="billing-info mb-20">
-                          <label>First Name</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 col-md-6">
-                        <div className="billing-info mb-20">
-                          <label>Last Name</label>
-                          <input type="text" />
-                        </div>
-                      </div>
                       <div className="col-lg-12">
                         <div className="billing-info mb-20">
-                          <label>Company Name</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="billing-select mb-20">
-                          <label>Country</label>
-                          <select>
-                            <option>Select a country</option>
-                            <option>Azerbaijan</option>
-                            <option>Bahamas</option>
-                            <option>Bahrain</option>
-                            <option>Bangladesh</option>
-                            <option>Barbados</option>
-                          </select>
+                          <label>Your Name</label>
+                          <input type="text" ref={nameRef} />
                         </div>
                       </div>
                       <div className="col-lg-12">
@@ -74,41 +83,14 @@ const Checkout = ({ location, cartItems, currency }) => {
                             className="billing-address"
                             placeholder="House number and street name"
                             type="text"
-                          />
-                          <input
-                            placeholder="Apartment, suite, unit etc."
-                            type="text"
+                            ref={addressRef}
                           />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="billing-info mb-20">
-                          <label>Town / City</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 col-md-6">
-                        <div className="billing-info mb-20">
-                          <label>State / County</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 col-md-6">
-                        <div className="billing-info mb-20">
-                          <label>Postcode / ZIP</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 col-md-6">
-                        <div className="billing-info mb-20">
                           <label>Phone</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 col-md-6">
-                        <div className="billing-info mb-20">
-                          <label>Email Address</label>
-                          <input type="text" />
+                          <input type="text" ref={phoneRef} />
                         </div>
                       </div>
                     </div>
@@ -121,6 +103,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                           placeholder="Notes about your order, e.g. special notes for delivery. "
                           name="message"
                           defaultValue={""}
+                          ref={noteRef}
                         />
                       </div>
                     </div>
@@ -198,7 +181,9 @@ const Checkout = ({ location, cartItems, currency }) => {
                       <div className="payment-method"></div>
                     </div>
                     <div className="place-order mt-25">
-                      <button className="btn-hover">Place Order</button>
+                      <button className="btn-hover" onClick={handleCheckout}>
+                        Place Order
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -212,7 +197,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                     </div>
                     <div className="item-empty-area__text">
                       No items found in cart to checkout <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                      <Link to={process.env.PUBLIC_URL + "/collection"}>
                         Shop Now
                       </Link>
                     </div>
@@ -230,14 +215,21 @@ const Checkout = ({ location, cartItems, currency }) => {
 Checkout.propTypes = {
   cartItems: PropTypes.array,
   currency: PropTypes.object,
-  location: PropTypes.object
+  location: PropTypes.object,
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     cartItems: state.cartData,
-    currency: state.currencyData
+    currency: state.currencyData,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    deleteAllFromCart: (addToast) => {
+      dispatch(deleteAllFromCart(addToast));
+    },
   };
 };
 
-export default connect(mapStateToProps)(Checkout);
+export default connect(mapStateToProps, mapDispatchToProps)(Checkout);
