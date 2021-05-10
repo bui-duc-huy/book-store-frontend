@@ -52,7 +52,7 @@ const BlogDetailsStandard = ({ location }) => {
 };
 
 BlogDetailsStandard.propTypes = {
-  location: PropTypes.object
+  location: PropTypes.object,
 };
 
 export default BlogDetailsStandard;
