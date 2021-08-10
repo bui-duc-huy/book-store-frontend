@@ -147,15 +147,13 @@ const Checkout = ({ location, cartItems, currency }) => {
                                   </span>{" "}
                                   <span className="order-price">
                                     {discountedPrice !== null
-                                      ? currency.currencySymbol +
-                                        (
+                                      ? (
                                           finalDiscountedPrice *
                                           cartItem.quantity
-                                        ).toFixed(2)
-                                      : currency.currencySymbol +
-                                        (
+                                        ).toFixed(2) + ' VND'
+                                      : (
                                           finalProductPrice * cartItem.quantity
-                                        ).toFixed(2)}
+                                        ).toFixed(2) + ' VND'}
                                   </span>
                                 </li>
                               );
@@ -172,8 +170,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                           <ul>
                             <li className="order-total">Total</li>
                             <li>
-                              {currency.currencySymbol +
-                                cartTotalPrice.toFixed(2)}
+                              {cartTotalPrice.toFixed(2) + ' VND'}
                             </li>
                           </ul>
                         </div>

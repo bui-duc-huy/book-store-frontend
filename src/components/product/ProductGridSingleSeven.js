@@ -151,14 +151,14 @@ const ProductGridSingleSeven = ({
                 {discountedPrice !== null ? (
                   <Fragment>
                     <span className="old">
-                      {currency.currencySymbol + finalProductPrice}
+                      {finalProductPrice + ' VND'}
                     </span>{" "}
                     <span>
-                      {currency.currencySymbol + finalDiscountedPrice}
+                      {finalDiscountedPrice + ' VND'}
                     </span>
                   </Fragment>
                 ) : (
-                  <span>{currency.currencySymbol + finalProductPrice} </span>
+                  <span>{finalProductPrice + ' VND'} </span>
                 )}
               </div>
             </div>
