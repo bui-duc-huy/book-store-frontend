@@ -174,8 +174,49 @@ const Checkout = ({ location, cartItems, currency }) => {
                             </li>
                           </ul>
                         </div>
+                        <div className="your-order-bottom">
+                          <ul>
+                            <li className="your-order-shipping">Payment Method</li>
+                            <li>
+                            <button
+                          onClick={e => {
+                          }}
+                        >
+                        </button><Link
+                                to={
+                                    process.env.PUBLIC_URL +
+                                    "/"
+                                }
+                              >
+                                <img
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "/assets/img/get-cash.png" 
+                                    }
+                                    alt=""
+                                    width="50" height="50"
+                                />
+                              </Link></li>
+                            <li> 
+                              <Link
+                                to={
+                                    process.env.PUBLIC_URL +
+                                    "/"
+                                }
+                              >
+                                <img
+                                    src={
+                                        process.env.PUBLIC_URL +
+                                        "/assets/img/logo_momo.png" 
+                                    }
+                                    alt=""
+                                    width="50" height="50"
+                                />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
-                      <div className="payment-method"></div>
                     </div>
                     <div className="place-order mt-25">
                       <button className="btn-hover" onClick={handleCheckout}>
