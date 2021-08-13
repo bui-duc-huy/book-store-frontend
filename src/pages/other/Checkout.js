@@ -13,7 +13,6 @@ import { useAuth } from "../../contexts";
 import { db } from "../../firebase";
 import { deleteAllFromCart } from "../../redux/actions/cartActions";
 import { setPaymentMethod } from "../../helpers/product";
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 const Checkout = ({ location, cartItems, currency }) => {
   const nameRef = useRef();
@@ -75,7 +74,7 @@ const Checkout = ({ location, cartItems, currency }) => {
       },
       onApprove: async (data, actions) => {
         const order = await actions.order.capture();
-        if (order.status == "COMPLETED") {
+        if (order.status === "COMPLETED") {
           const orders = db.collection("orders_table");
           orders.add({
             emailBuyer: currentUser.email,
@@ -96,7 +95,7 @@ const Checkout = ({ location, cartItems, currency }) => {
         console.log(err)
       }
     }).render(paypal.current)
-  }, [isAuth])
+  }, [isAuth, addToast, cartItems, cartTotalPrice, currentUser.email, history])
 
   return (
     <Fragment>
