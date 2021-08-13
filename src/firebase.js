@@ -3,6 +3,7 @@ import firebase from "firebase";
 var firebaseConfig = {
   apiKey: "AIzaSyA-jF7D_OHvwSZdU9l3WwDd9c7s4SrO2M8",
   authDomain: "book-store-52017.firebaseapp.com",
+  databaseURL: "https://book-store-52017-default-rtdb.firebaseio.com",
   projectId: "book-store-52017",
   storageBucket: "book-store-52017.appspot.com",
   messagingSenderId: "771970511857",

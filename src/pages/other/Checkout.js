@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { Fragment, useRef } from "react";
+import React, { Fragment, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
 import { connect } from "react-redux";
@@ -13,12 +13,14 @@ import { useAuth } from "../../contexts";
 import { db } from "../../firebase";
 import { deleteAllFromCart } from "../../redux/actions/cartActions";
 import { setPaymentMethod } from "../../helpers/product";
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 const Checkout = ({ location, cartItems, currency }) => {
   const nameRef = useRef();
   const addressRef = useRef();
   const phoneRef = useRef();
   const noteRef = useRef();
+  const paypal = useRef();
   const { addToast } = useToasts();
   const { pathname } = location;
   let cartTotalPrice = 0;
@@ -26,6 +28,10 @@ const Checkout = ({ location, cartItems, currency }) => {
   const history = useHistory();
 
   const { isAuth, currentUser } = useAuth();
+
+  if (!isAuth) {
+    history.push("/login-register");
+  }
 
   let isCash = true;
 
@@ -48,11 +54,49 @@ const Checkout = ({ location, cartItems, currency }) => {
       deleteAllFromCart(addToast);
       history.push("/checkout-done");
     }
-      else {
-        //Thanh toan bang MOMO
-    }
     }
   };
+
+  useEffect(() => {
+    window.paypal.Buttons({
+      createOrder: (data, actions, err) => {
+        return actions.order.create({
+          intent: "CAPTURE",
+          purchase_units: [
+            {
+              description: "checkout your book",
+              amount: {
+                currency_code: "USD",
+                value: cartTotalPrice.toFixed(2)
+              }
+            }
+          ]
+        })
+      },
+      onApprove: async (data, actions) => {
+        const order = await actions.order.capture();
+        if (order.status == "COMPLETED") {
+          const orders = db.collection("orders_table");
+          orders.add({
+            emailBuyer: currentUser.email,
+            products: cartItems,
+            nameBuyer: nameRef.current.value,
+            addressBuyer: addressRef.current.value,
+            phoneBuyer: phoneRef.current.value,
+            noteBill: noteRef.current.value,
+            totalPrice: cartTotalPrice,
+            executed: true,
+            payMethod: "paypal"
+          });
+        }
+        deleteAllFromCart(addToast);
+        history.push("/checkout-done");
+      },
+      onError: (err) => {
+        console.log(err)
+      }
+    }).render(paypal.current)
+  }, [isAuth])
 
   return (
     <Fragment>
@@ -210,25 +254,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                             </li>
                             <li>
                             <div className="sidebar-widget-list-left">
-                            <button
-                              onClick={e => {
-                                // getSortParams("category", "");
-                                // setActiveSort(e);
-                                setPaymentMethod(e);
-                                isCash = false;
-
-                              }}
-                            >
-                              <span className="checkmark" />
-                                            <img
-                                                src={
-                                                    process.env.PUBLIC_URL +
-                                                    "/assets/img/logo_momo.png" 
-                                                }
-                                                alt=""
-                                                width="50" height="50"
-                                            />
-                            </button>
+                            <div ref={paypal}></div>
                             </div>
                             </li>
                         </ul>
