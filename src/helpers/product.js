@@ -203,6 +203,15 @@ export const setActiveSort = (e) => {
   e.currentTarget.classList.add("active");
 };
 
+export const setPaymentMethod = (e) => {
+  const filterButtons = document.querySelectorAll(
+    ".sidebar-widget-list-left button, .sidebar-widget-tag button, .product-filter button"
+  );
+  filterButtons.forEach((item) => {
+    item.classList.remove("active");
+  });
+  e.currentTarget.classList.add("active");
+};
 export const setActiveLayout = (e) => {
   const gridSwitchBtn = document.querySelectorAll(".shop-tab button");
   gridSwitchBtn.forEach((item) => {

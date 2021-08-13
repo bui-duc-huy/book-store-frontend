@@ -42,7 +42,7 @@ const BlogStandard = ({ location }) => {
                 </div>
               </div>
               <div className="col-lg-3">
-                {/* blog sidebar */}
+            
                 <BlogSidebar />
               </div>
             </div>
