@@ -72,12 +72,12 @@ const ProductGridSingleEight = ({
               {discountedPrice !== null ? (
                 <Fragment>
                   <span className="old">
-                    {currency.currencySymbol + finalProductPrice}
+                    {finalProductPrice + ' VND'}
                   </span>
-                  <span>{currency.currencySymbol + finalDiscountedPrice}</span>
+                  <span>{finalDiscountedPrice + ' VND'}</span>
                 </Fragment>
               ) : (
-                <span>{currency.currencySymbol + finalProductPrice} </span>
+                <span>{finalProductPrice + ' VND'} </span>
               )}
             </div>
 

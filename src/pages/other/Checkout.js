@@ -12,6 +12,7 @@ import { useToasts } from "react-toast-notifications";
 import { useAuth } from "../../contexts";
 import { db } from "../../firebase";
 import { deleteAllFromCart } from "../../redux/actions/cartActions";
+import { setPaymentMethod } from "../../helpers/product";
 
 const Checkout = ({ location, cartItems, currency }) => {
   const nameRef = useRef();
@@ -26,10 +27,13 @@ const Checkout = ({ location, cartItems, currency }) => {
 
   const { isAuth, currentUser } = useAuth();
 
+  let isCash = true;
+
   const handleCheckout = async () => {
     if (!isAuth) {
       history.push("/login-register");
     } else {
+      if (isCash === true){
       const orders = db.collection("orders_table");
       orders.add({
         emailBuyer: currentUser.email,
@@ -43,6 +47,10 @@ const Checkout = ({ location, cartItems, currency }) => {
       });
       deleteAllFromCart(addToast);
       history.push("/checkout-done");
+    }
+      else {
+        //Thanh toan bang MOMO
+    }
     }
   };
 
@@ -147,15 +155,13 @@ const Checkout = ({ location, cartItems, currency }) => {
                                   </span>{" "}
                                   <span className="order-price">
                                     {discountedPrice !== null
-                                      ? currency.currencySymbol +
-                                        (
+                                      ? (
                                           finalDiscountedPrice *
                                           cartItem.quantity
-                                        ).toFixed(2)
-                                      : currency.currencySymbol +
-                                        (
+                                        ).toFixed(2) + ' VND'
+                                      : (
                                           finalProductPrice * cartItem.quantity
-                                        ).toFixed(2)}
+                                        ).toFixed(2) + ' VND'}
                                   </span>
                                 </li>
                               );
@@ -172,13 +178,61 @@ const Checkout = ({ location, cartItems, currency }) => {
                           <ul>
                             <li className="order-total">Total</li>
                             <li>
-                              {currency.currencySymbol +
-                                cartTotalPrice.toFixed(2)}
+                              {cartTotalPrice.toFixed(2) + ' VND'}
                             </li>
                           </ul>
                         </div>
+                        <div className="sidebar-widget">
+                            <h4 className="pro-sidebar-title">Payment Method</h4>
+                            <div className="sidebar-widget-list mt-30">
+                          <ul>
+                            <li>
+                            <div className="sidebar-widget-list-left">
+                            <button
+                              onClick={e => {
+                                //getPlaceOrder(e);
+                                //iscash(true)
+                                setPaymentMethod(e);
+                                isCash = true;
+                              }}
+                            >
+                              <span className="checkmark" /> 
+                                            <img
+                                                src={
+                                                    process.env.PUBLIC_URL +
+                                                    "/assets/img/get-cash.png" 
+                                                }
+                                                alt=""
+                                                width="50" height="50"
+                                            />
+                            </button>
+                            </div>
+                            </li>
+                            <li>
+                            <div className="sidebar-widget-list-left">
+                            <button
+                              onClick={e => {
+                                // getSortParams("category", "");
+                                // setActiveSort(e);
+                                setPaymentMethod(e);
+                                isCash = false;
+
+                              }}
+                            >
+                              <span className="checkmark" />
+                                            <img
+                                                src={
+                                                    process.env.PUBLIC_URL +
+                                                    "/assets/img/logo_momo.png" 
+                                                }
+                                                alt=""
+                                                width="50" height="50"
+                                            />
+                            </button>
+                            </div>
+                            </li>
+                        </ul>
                       </div>
-                      <div className="payment-method"></div>
                     </div>
                     <div className="place-order mt-25">
                       <button className="btn-hover" onClick={handleCheckout}>
@@ -188,6 +242,8 @@ const Checkout = ({ location, cartItems, currency }) => {
                   </div>
                 </div>
               </div>
+            </div>
+            </div>
             ) : (
               <div className="row">
                 <div className="col-lg-12">
@@ -204,9 +260,9 @@ const Checkout = ({ location, cartItems, currency }) => {
                   </div>
                 </div>
               </div>
-            )}
-          </div>
+          )}
         </div>
+      </div>
       </LayoutOne>
     </Fragment>
   );

@@ -4,7 +4,7 @@
     "image": "/assets/img/banner/banner11.jpg",
     "title": "Male Kids",
     "subtitle": "Starting at",
-    "price": "$99.00",
+    "price": "199.000 VND",
     "link": "/shop-grid-standard"
   },
   {
@@ -12,7 +12,7 @@
     "image": "/assets/img/banner/banner12.jpg",
     "title": "Female kids",
     "subtitle": "Starting at",
-    "price": "$79.00",
+    "price": "179.000 VND",
     "link": "/shop-grid-standard"
   },
   {
@@ -20,7 +20,7 @@
     "image": "/assets/img/banner/banner13.jpg",
     "title": "Featured",
     "subtitle": "Starting at",
-    "price": "$29.00",
+    "price": "129.000 VND",
     "link": "/shop-grid-standard"
   }
 ]

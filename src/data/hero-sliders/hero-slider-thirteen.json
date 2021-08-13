@@ -8,7 +8,7 @@
     "url": "/shop-grid-standard",
     "shapeImage": "/assets/img/icon-img/slider-shape.png",
     "shapeTitle": "Sale",
-    "shapeSubtitle": "$99.00"
+    "shapeSubtitle": "199.000 VND"
   },
   {
     "id": 2,
@@ -19,6 +19,6 @@
     "url": "/shop-grid-standard",
     "shapeImage": "/assets/img/icon-img/slider-shape.png",
     "shapeTitle": "Sale",
-    "shapeSubtitle": "$20.00"
+    "shapeSubtitle": "220.000 VND"
   }
 ]
