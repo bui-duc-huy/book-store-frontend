@@ -28,6 +28,7 @@ function AuthValue() {
         username: auth.user.displayName,
         email: auth.user.email,
         method: "google sign in",
+        date: new Date()
       });
     }
   };

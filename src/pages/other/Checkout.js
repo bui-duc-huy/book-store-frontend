@@ -12,7 +12,6 @@ import { useToasts } from "react-toast-notifications";
 import { useAuth } from "../../contexts";
 import { db } from "../../firebase";
 import { deleteAllFromCart } from "../../redux/actions/cartActions";
-import { setPaymentMethod } from "../../helpers/product";
 
 const Checkout = ({ location, cartItems, currency }) => {
   const nameRef = useRef();
@@ -49,6 +48,7 @@ const Checkout = ({ location, cartItems, currency }) => {
         noteBill: noteRef.current.value,
         totalPrice: cartTotalPrice,
         executed: false,
+        date: new Date()
       });
       deleteAllFromCart(addToast);
       history.push("/checkout-done");
@@ -85,7 +85,8 @@ const Checkout = ({ location, cartItems, currency }) => {
             noteBill: noteRef.current.value,
             totalPrice: cartTotalPrice,
             executed: true,
-            payMethod: "paypal"
+            payMethod: "paypal",
+            date: new Date()
           });
         }
         deleteAllFromCart(addToast);
