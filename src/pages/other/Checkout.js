@@ -232,7 +232,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                             <h4 className="pro-sidebar-title">Payment Method</h4>
                             <div className="sidebar-widget-list mt-30">
                           <ul>
-                            <li>
+                            {/* <li>
                             <div className="sidebar-widget-list-left">
                             <button
                               onClick={e => {
@@ -253,7 +253,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                                             />
                             </button>
                             </div>
-                            </li>
+                            </li> */}
                             <li>
                             <div className="sidebar-widget-list-left">
                             <div ref={paypal}></div>
