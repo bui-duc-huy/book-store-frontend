@@ -135,15 +135,15 @@ const Cart = ({
                                   {discountedPrice !== null ? (
                                     <Fragment>
                                       <span className="amount old">
-                                        {finalProductPrice + ' VND'}
+                                        {currency.currencySymbol + finalProductPrice}
                                       </span>
                                       <span className="amount">
-                                        {finalDiscountedPrice + ' VND'}
+                                        {currency.currencySymbol + finalDiscountedPrice}
                                       </span>
                                     </Fragment>
                                   ) : (
                                     <span className="amount">
-                                      {finalProductPrice + ' VND'}
+                                      {currency.currencySymbol + finalProductPrice}
                                     </span>
                                   )}
                                 </td>
@@ -190,12 +190,14 @@ const Cart = ({
                                 </td>
                                 <td className="product-subtotal">
                                   {discountedPrice !== null
-                                    ? (
+                                    ? currency.currencySymbol + 
+                                    (
                                         finalDiscountedPrice * cartItem.quantity
-                                      ).toFixed(2) + ' VND'
-                                    : (
+                                      ).toFixed(2)
+                                    : currency.currencySymbol + 
+                                    (
                                         finalProductPrice * cartItem.quantity
-                                      ).toFixed(2) + ' VND'}
+                                      ).toFixed(2)}
                                 </td>
 
                                 <td className="product-remove">
@@ -238,14 +240,14 @@ const Cart = ({
                       <h5>
                         Total products{" "}
                         <span>
-                          {cartTotalPrice.toFixed(2) + ' VND'}
+                          {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h5>
 
                       <h4 className="grand-totall-title">
                         Grand Total{" "}
                         <span>
-                          {cartTotalPrice.toFixed(2) + ' VND'}
+                          {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h4>
                       <Link to={process.env.PUBLIC_URL + "/checkout"}>

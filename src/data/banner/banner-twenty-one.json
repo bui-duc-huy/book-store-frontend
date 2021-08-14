@@ -4,7 +4,7 @@
     "image": "/assets/img/banner/banner29.jpg",
     "title": "Dog Food",
     "subtitle": "Starting at",
-    "price": "199.000 VND",
+    "price": "$99.00",
     "link": "/shop-grid-standard"
   },
   {
@@ -12,7 +12,7 @@
     "image": "/assets/img/banner/banner30.jpg",
     "title": "Fish Food",
     "subtitle": "Starting at",
-    "price": "119.000 VND",
+    "price": "$19.000",
     "link": "/shop-grid-standard"
   },
   {
@@ -20,7 +20,7 @@
     "image": "/assets/img/banner/banner31.jpg",
     "title": "Cat Food",
     "subtitle": "Starting at",
-    "price": "329.000 VND",
+    "price": "$29.00",
     "link": "/shop-grid-standard"
   }
 ]

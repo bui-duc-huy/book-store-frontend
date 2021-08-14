@@ -4,7 +4,7 @@
     "image": "/assets/img/banner/banner-16.png",
     "title": "Eye Lashes",
     "subtitle": "Starting at",
-    "price": "19.000 VND",
+    "price": "$19.00",
     "link": "/shop-grid-standard"
   },
   {
@@ -12,7 +12,7 @@
     "image": "/assets/img/banner/banner-17.png",
     "title": "Anti-Wrinkles",
     "subtitle": "Starting at",
-    "price": "177.000 VND",
+    "price": "$77.00",
     "link": "/shop-grid-standard"
   }
 ]

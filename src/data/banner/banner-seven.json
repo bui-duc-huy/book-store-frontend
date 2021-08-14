@@ -4,7 +4,7 @@
     "image": "/assets/img/banner/banner-35.png",
     "title": "Flower",
     "subtitle": "Starting at",
-    "price": "199.000 VND",
+    "price": "$99.00",
     "link": "/shop-grid-standard"
   },
   {
@@ -12,7 +12,7 @@
     "image": "/assets/img/banner/banner-36.png",
     "title": "Flower",
     "subtitle": "Starting at",
-    "price": "179.000 VND",
+    "price": "$79.00",
     "link": "/shop-grid-standard"
   },
   {
@@ -20,7 +20,7 @@
     "image": "/assets/img/banner/banner-37.png",
     "title": "Flower",
     "subtitle": "Starting at",
-    "price": "129.000 VND",
+    "price": "$29.00",
     "link": "/shop-grid-standard"
   }
 ]

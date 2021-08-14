@@ -137,14 +137,14 @@ const ProductGridSingleNine = ({
                 {discountedPrice !== null ? (
                   <Fragment>
                     <span className="old">
-                      {finalProductPrice + ' VND'}
+                      {currency.currencySymbol + finalProductPrice}
                     </span>{" "}
                     <span>
-                      {finalDiscountedPrice + ' VND'}
+                      {currency.currencySymbol + finalDiscountedPrice}
                     </span>
                   </Fragment>
                 ) : (
-                  <span>{finalProductPrice + ' VND'} </span>
+                  <span>{currency.currencySymbol + finalProductPrice} </span>
                 )}
               </div>
             </div>

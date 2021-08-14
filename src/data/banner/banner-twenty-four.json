@@ -4,7 +4,7 @@
     "image": "/assets/img/banner/banner-38.png",
     "title": "Historical",
     "subtitle": "Starting at",
-    "price": "199.000 VND",
+    "price": "$99.00",
     "link": "/shop-grid-standard"
   },
   {
@@ -12,7 +12,7 @@
     "image": "/assets/img/banner/banner-39.png",
     "title": "Magazine",
     "subtitle": "Starting at",
-    "price": "79.00 VND",
+    "price": "$79.00",
     "link": "/shop-grid-standard"
   },
   {
@@ -20,7 +20,7 @@
     "image": "/assets/img/banner/banner-36.jpg",
     "title": "Bestseller",
     "subtitle": "Starting at",
-    "price": "129.000 VND",
+    "price": "$29.00",
     "link": "/shop-grid-standard"
   }
 ]
