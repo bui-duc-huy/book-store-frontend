@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-1.jpg",
-    "title": "Watches",
+    "image": "/assets/img/banner/banner-1.jpeg",
+    "title": "BookCare",
     "subtitle": "Starting at",
-    "price": "199.000 VND",
+    "price": "$9.00",
     "link": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-2.jpg",
-    "title": "Plo Bag",
+    "image": "/assets/img/banner/banner-2.jpeg",
+    "title": "Notebook",
     "subtitle": "Starting at",
-    "price": "179.000 VND",
+    "price": "$79.00",
     "link": "/shop-grid-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-3.jpg",
-    "title": "Sunglass",
+    "image": "/assets/img/banner/banner-3.jpeg",
+    "title": "Class Novel",
     "subtitle": "Starting at",
-    "price": "129.000 VND",
+    "price": "$29.00",
     "link": "/shop-grid-standard"
   }
 ]

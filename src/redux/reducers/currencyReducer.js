@@ -1,7 +1,7 @@
 import { SET_CURRENCY } from "../actions/currencyActions";
 
 const initState = {
-  currencySymbol: "VND",
+  currencySymbol: "USD",
   currencyName: "USD",
   currencyRate: 1
 };
@@ -13,7 +13,7 @@ const currencyReducer = (state = initState, action) => {
     if (currencyName === "USD") {
       return {
         ...state,
-        currencySymbol: "VND",
+        currencySymbol: "USD",
         currencyRate: action.payload.currencyRate,
         currencyName
       };

@@ -198,13 +198,15 @@ const Checkout = ({ location, cartItems, currency }) => {
                                   </span>{" "}
                                   <span className="order-price">
                                     {discountedPrice !== null
-                                      ? (
+                                      ?  currency.currencySymbol + 
+                                      (
                                           finalDiscountedPrice *
                                           cartItem.quantity
-                                        ).toFixed(2) + ' VND'
-                                      : (
+                                        ).toFixed(2)
+                                      : currency.currencySymbol + 
+                                      (
                                           finalProductPrice * cartItem.quantity
-                                        ).toFixed(2) + ' VND'}
+                                        ).toFixed(2)}
                                   </span>
                                 </li>
                               );
@@ -221,7 +223,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                           <ul>
                             <li className="order-total">Total</li>
                             <li>
-                              {cartTotalPrice.toFixed(2) + ' VND'}
+                              {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                             </li>
                           </ul>
                         </div>
@@ -229,7 +231,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                             <h4 className="pro-sidebar-title">Payment Method</h4>
                             <div className="sidebar-widget-list mt-30">
                           <ul>
-                            <li>
+                            {/* <li>
                             <div className="sidebar-widget-list-left">
                             <button
                               onClick={e => {
@@ -250,7 +252,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                                             />
                             </button>
                             </div>
-                            </li>
+                            </li> */}
                             <li>
                             <div className="sidebar-widget-list-left">
                             <div ref={paypal}></div>

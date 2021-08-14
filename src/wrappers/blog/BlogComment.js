@@ -17,7 +17,7 @@ const BlogComment = () => {
                     </div>
                     <div className="blog-comment-content">
                         <h4>Mien PV</h4>
-                        <span>April 14, 2021 </span>
+                        <span>August 14, 2021 </span>
                         <p>Tuyệt vời </p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const BlogComment = () => {
                     </div>
                     <div className="blog-comment-content">
                         <h4>Huy Bui Duc</h4>
-                        <span>April 22, 2021 </span>
+                        <span>July 22, 2021 </span>
                         <p>I very love this book, </p>
                     </div>
                 </div>

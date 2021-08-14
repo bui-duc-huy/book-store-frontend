@@ -13,7 +13,7 @@ const HomeBookStoreTwo = () => {
         <title>Bookier | Home</title>
         <meta name="description" content="Bookier" />
       </MetaTags>
-      <LayoutOne headerTop="visible">
+      <LayoutOne>
         {/* hero slider */}
         <HeroSliderTwentyFour />
         {/* tab product */}
